@@ -28,7 +28,7 @@ Windows. The page is served by GitHub Pages from this repo.
 
 It then shows as **Copy Message ID** on a message's toolbar or under its
 **Apps** / **…** menu. Pin the pane to keep it open: it follows the selected
-email, and the **Copy for Claude** button copies whichever one is showing.
+email, and the **Copy** button copies whichever one is showing.
 
 ## Test
 
