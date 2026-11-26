@@ -4,6 +4,12 @@
  *
  * The Message-ID is used rather than the API's item id because it survives
  * the message being moved or archived; the item id does not.
+ *
+ * TWIN CODE: this is the twin of `formatEmailReference` in
+ * ~/dev/pkm-obsidian/plugin/src/pa-triage.ts (the Obsidian triage block's ID
+ * chips). The repos deploy separately and share no code, so any change to the
+ * block's format must be made in both. The plugin's
+ * test/pa-email-ref.test.mjs has a drift guard that compares them.
  */
 function formatReference(item) {
   const from = item.from
